@@ -55,7 +55,7 @@ public class StoryResource {
         String url = story.getUrl();
         RestTemplate restTemplate = new RestTemplate();
         ResponseEntity<Story> forEntity = restTemplate.getForEntity(
-                "http://gooseextractor-t20.rhcloud.com/api/v1/extract?url=" + url, Story.class);
+                "http://test-us1bteam.rhcloud.com/api/v1/extract?url=" + url, Story.class);
         if (forEntity.hasBody()) {
             return new Story(story, forEntity.getBody());
         }
