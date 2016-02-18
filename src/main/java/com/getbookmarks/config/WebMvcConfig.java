@@ -1,6 +1,5 @@
 package com.getbookmarks.config;
 
-import com.getbookmarks.rest.PingResource;
 import org.springframework.context.annotation.Bean;
 import org.springframework.context.annotation.ComponentScan;
 import org.springframework.context.annotation.Configuration;
