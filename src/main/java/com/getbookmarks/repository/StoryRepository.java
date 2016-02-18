@@ -4,6 +4,8 @@ import com.getbookmarks.domain.Story;
 import org.springframework.data.repository.CrudRepository;
 import org.springframework.stereotype.Repository;
 
+import com.getbookmarks.domain.Story;
+
 import java.util.List;
 
 @Repository

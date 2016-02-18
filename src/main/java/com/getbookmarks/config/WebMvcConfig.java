@@ -9,7 +9,7 @@ import org.springframework.web.servlet.config.annotation.WebMvcConfigurerAdapter
 import org.springframework.web.servlet.view.json.MappingJacksonJsonView;
 
 @EnableWebMvc
-@ComponentScan(basePackageClasses = PingResource.class)
+@ComponentScan(basePackageClasses = StoryResource.class)
 @Configuration
 public class WebMvcConfig extends WebMvcConfigurerAdapter {
 
